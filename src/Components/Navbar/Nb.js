@@ -1,4 +1,4 @@
-// import './Navbar.css';
+import './Navbar.css';
 import {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 
 export default function Nb(props){
     return (
-        <Navbar collapseOnSelect expand="lg"  variant="dark">
+        <Navbar collapseOnSelect expand="lg"  variant="dark" className = 'Nb'>
         <Container>
         <Navbar.Brand href="#home">Coding With A Cause</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

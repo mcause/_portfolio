@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Nb links={['Home', 'About Me', 'Project', 'Contact Me']}/>
-        <Route exact path ='/About'>
+        <Route exact path ='/about-me'>
           <AboutMe/>
         </Route>
-        <Route exact path ='/Projects'>
+        <Route exact path ='/projects'>
           <Project/>
         </Route>
       <h2> Welcome to my domain</h2>
